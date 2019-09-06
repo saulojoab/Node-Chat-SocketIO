@@ -1,0 +1,32 @@
+{
+  "name": "node-chat-socketio",
+  "version": "1.0.0",
+  "description": "A NodeJS server using socket.io for a realtime chat",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saulojoab/Node-Chat-SocketIO.git"
+  },
+  "keywords": [
+    "node",
+    "chat",
+    "socket",
+    "socket.io"
+  ],
+  "author": "Saulo Joab Penha Simplício",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saulojoab/Node-Chat-SocketIO/issues"
+  },
+  "homepage": "https://github.com/saulojoab/Node-Chat-SocketIO#readme",
+  "devDependencies": {
+    "morgan": "^1.9.1"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.2.0"
+  }
+}
